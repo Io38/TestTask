@@ -7,11 +7,11 @@ const NavLinks = () => {
     return (
         <div>
             <div>
-                <NavLink to="/News">News</NavLink>
+                <NavLink to="/News" activeClassName='activeLink'>News</NavLink>
             </div>
 
             <div>
-                <NavLink to="/Newest">Newest</NavLink>
+                <NavLink to="/Newest" activeClassName='activeLink'>Newest</NavLink>
             </div>
         </div>
 
